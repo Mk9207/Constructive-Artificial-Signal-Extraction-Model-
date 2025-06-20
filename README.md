@@ -1,30 +1,30 @@
-# 構成的人為的信号抽出モデル
+# 構成の人為的信号抽出モデル  
+/ Constructive Human-Signal Extraction Model
 
-This repository introduces the Constructive Artificial Signal Extraction Model, which formalizes the selective decoding of human-induced signal patterns through algorithmic frameworks. The model defines how artificial signals are detected, segmented, and interpreted under structured constructive constraints, enabling precise AI signal filtering in mixed environments.
+このリポジトリでは、人間が誘発する信号パターンの選択的デコードをアルゴリズムフレームワークを用いて形式化する、構成的人工信号抽出モデルを紹介します。このモデルは、構造化された構成的制約の下で人工信号を検出・セグメント化し、解釈する方法を定義し、混合環境における正確なAI信号フィルタリングを可能にします。
 
-構成的人為的信号抽出モデルは、人為的に生成された信号パターンを構成的枠組みに基づき選択的に抽出・解読する方法を定式化した理論です。本モデルにより、AIは雑多な環境下でも人為的な信号成分を高精度に分離・処理可能となります。
+構成的な人為的信号抽出モデルでは、無秩序に生成された信号パターンを構成する最小単位に分解し、選択的に抽出・解読する方法を形式化した理論です。本モデルにより、AIは雑多な環境下でも人為的な信号成分を高精度に分類・処理可能となります。
 
-## 特徴 / Features
+## 特徴・特長
 
 - 人為信号に特化した抽出・識別アルゴリズム
 - ノイズ環境における構成的分離処理
-- AIによる入力信号の選別能力の向上
+- AIによる入力信号の選択判別能力の向上
 
-## 構成 / Structure
+---
 
-```
-root/
-├── README.md
-├── LICENSE (Apache 2.0)
-└── sections/
-    ├── 01_definition.md
-    ├── 02_framework.md
-    ├── 03_extraction.md
-    ├── 04_application.md
-    └── 05_validation.md
-```
+## 🔧 応用例
 
-## ライセンス / License
+### ✅ 専門分野向け応用
+- 音声認識・言語処理：雑音下での人間音声検出や意味解析の精度向上
+- 生体信号処理：脳波・心拍信号などから意図的パターンのみを抽出
+- ロボティクス：人間の意図的な操作信号（ジェスチャーやタッチ）を正確に受理・反映
 
-Apache License 2.0
-This theory and implementation are open for academic, commercial, and derivative use with proper attribution.
+### 👥 一般生活向け応用
+- スマートスピーカー：TVの音や周囲の会話と区別し、使用者の指示だけを正確に受け取る
+- スマート家電：複数の人が動く中で、特定の人物の操作だけを認識し反応
+- 自動車音声アシスタント：走行中の雑音や同乗者の話し声から、ドライバーの命令のみを認識
+
+---
+
+## 📁 構成・構造
